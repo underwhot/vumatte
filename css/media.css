@@ -1,0 +1,34 @@
+@media (max-width: 440px) {
+
+  main {
+     width: 375px;
+    /* padding: 0 10px; */
+  }
+
+  main audio {
+    width: 100%;
+  }
+
+  /* .track-soundcloud iframe{
+    width: 380px;
+    display: block;
+    margin: 0 auto;
+  } */
+
+  .track-soundcloud iframe a {
+    text-align: center;
+  }
+
+  .clip video {
+    width: 360px;
+    height: 210px;
+    display: block;
+    margin: 0 auto;
+  }
+  .clip-youtube iframe {
+    width: 360px;
+    height: 210px;
+    display: block;
+    margin: 0 auto;
+  }
+}

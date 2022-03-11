@@ -87,7 +87,7 @@ a:hover {
 }
 
 body {
-  min-width: 600px;
+  /* min-width: 600px; */
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -104,7 +104,6 @@ header {
   letter-spacing: 10px;
   text-align: center;
   background-color: #000;
-  
 }
 
 header a {
@@ -115,7 +114,8 @@ header a:hover {
 }
 
 main {
-  /* min-width: 1000px; */
+  padding: 0 10px;
+  width: 580px;
   margin: 0 auto;
   flex: 1 1 auto;
 }
@@ -141,3 +141,4 @@ footer {
 
   background-color: #000;
 }
+
